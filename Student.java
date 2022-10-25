@@ -8,14 +8,30 @@ public class Student extends Person {
   //   System.out.println("学籍番号：" + stuNo);
   // }
   
+  // private int stuNo;
+
+  // public void setStuNo(int s){
+  //   stuNo = s;
+  // }
+
+  // public void display(){
+   //   System.out.println("名前：" + getName());
+  //   System.out.println("学籍番号：" + stuNo);
+  // }
+
   private int stuNo;
 
-  public void setStuNo(int s){
-    stuNo = s;
+  public Student(String name) {
+    this(name, 999);
   }
 
-  public void display(){
-    System.out.println("名前：" + getName());
+  public Student(String name, int stuNo){
+    super(name);
+    this.stuNo = stuNo;
+  }
+
+  public void display() {
+    super.display();
     System.out.println("学籍番号：" + stuNo);
   }
 }

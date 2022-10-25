@@ -10,9 +10,12 @@ public class StuSample {
     // stu.setStuNo(1);
     // stu.displayStuNo(); 
 
-    Student stu = new Student();
-    stu.setName("菅原");
-    stu.setStuNo(1);
+    // Student stu = new Student();
+     // stu.setName("菅原");
+    // stu.setStuNo(1);
+    // stu.display();
+
+    Student stu = new Student("菅原");
     stu.display();
   }
 }
