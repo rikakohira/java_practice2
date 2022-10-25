@@ -4,6 +4,7 @@ public class StuSample {
 
     // スーパークラスのメソッド
     stu.setName("菅原");
+    stu.display();
 
     // サブクラスのメソッド
     stu.setStuNo(1);
