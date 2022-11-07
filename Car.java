@@ -1,8 +1,8 @@
 public class Car {
   private int no;
 
-  public void setNo(int n) {
-    no = n;
+  public Car(int no) {
+    this.no = no;
   }
 
   public void display() {
@@ -10,11 +10,3 @@ public class Car {
   }
 
 }
-
-  
-
-  
-
-  
-
-  
