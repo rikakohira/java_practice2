@@ -1,3 +1,5 @@
+package mypack;
+
 public class Sample {
   public static void main(String[] args) {
     Taxi taxi = new Taxi(5);
@@ -7,6 +9,9 @@ public class Sample {
     taxi.showCrewNum();
     train.showCrewNum();
     bus.showCrewNum();
+
+    taxi.stop();
+    bus.stop();
   }
 
 }

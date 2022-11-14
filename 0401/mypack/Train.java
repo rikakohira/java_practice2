@@ -1,3 +1,5 @@
+package mypack;
+
 public class Train extends Vehicle {
   public Train(int crewNum) {
     this.crewNum = crewNum;

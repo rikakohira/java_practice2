@@ -1,3 +1,5 @@
+package mypack;
+
 public abstract class Vehicle {
   protected int crewNum;
 

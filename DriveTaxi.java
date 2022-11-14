@@ -1,3 +1,5 @@
+import mypack.Taxi;
+
 public class DriveTaxi {
   public static void main(String[] argS) {
     Taxi t1 = new Taxi(2525);
